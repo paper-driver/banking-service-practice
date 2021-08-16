@@ -1,0 +1,1 @@
+create table bank_account as select * from CSVREAD('classpath:testData.csv');
