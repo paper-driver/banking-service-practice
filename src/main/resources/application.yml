@@ -10,6 +10,11 @@ spring:
     driverClassName: org.h2.Driver
     username: sa
     password:
+    hikari:
+      minimum-idle: 20
+      maximum-pool-size: 50
+      idle-timeout: 120000
+      max-lifetime: 500000
 
   h2:
     console:
